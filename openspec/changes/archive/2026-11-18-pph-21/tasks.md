@@ -13,6 +13,6 @@
 - [x] 11. Verify: tiap SHALL di spec dilacak ke test; `npm pack --dry-run`; install lokal dari tarball + coba API
 - [x] 12. README.md lengkap + CHANGELOG.md
 - [x] 13. Archive openspec → `openspec/changes/archive/2026-11-18-pph-21/`
-- [ ] 14. Git init + commit, buat repo GitHub `junanda24/daily-pph-21`, push, verifikasi via API
-- [ ] 15. Update BUILT.md + profile README `junanda24/junanda24`
-- [ ] 16. Antar ke Junan
+- [x] 14. Git init + commit, buat repo GitHub `junanda24/daily-pph-21`, push, verifikasi via API
+- [x] 15. Update BUILT.md + profile README `junanda24/junanda24`
+- [x] 16. Antar ke Junan
