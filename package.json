@@ -1,0 +1,55 @@
+{
+  "author": "Vex untuk Junan",
+  "bin": {
+    "pph21": "bin/pph21.js"
+  },
+  "description": "Hitung PPh Pasal 21 Indonesia: TER bulanan & harian (PP 58/2023, PMK 168/2023), tarif progresif tahunan (UU HPP), rekonsiliasi Desember, gross-up, dan PTKP lengkap. Zero dependency.",
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "homepage": "https://github.com/junanda24/daily-pph-21#readme",
+  "keywords": [
+    "pph21",
+    "pph-21",
+    "pajak",
+    "indonesia",
+    "ter",
+    "tarif-efektif",
+    "ptkp",
+    "gaji",
+    "payroll",
+    "pp-58-2023",
+    "pmk-168-2023"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "pph-21",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junanda24/daily-pph-21.git"
+  },
+  "scripts": {
+    "format": "prettier --write src test bin examples package.json README.md CHANGELOG.md",
+    "lint": "eslint src test bin examples && prettier --check src test bin examples package.json README.md CHANGELOG.md",
+    "test": "node --test test/*.test.js"
+  },
+  "type": "module",
+  "types": "src/index.d.ts",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.10.1"
+  }
+}
